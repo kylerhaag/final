@@ -1,21 +1,5 @@
 <template>
-  <div class="wrapper">
-    <!-- <div class="Teddys">
-      <div class="Teddy" v-for="teddy in teddys" :key="name">
-        <div class="info">
-          <h1>{{teddys.name}}</h1>
-          <p>{{teddys.Age}}</p>
-        </div>
-        <div class="image">
-          <img :src="'/src/assets/Girl1.jpg'" />
-        </div>
-        <div class="price">
-          <h2>{{product.price}}</h2>
-          <button v-on:click="removeItemsFromCart(product)" class="auto">Remove from Cart</button>
-        </div>
-      </div>
-    </div>-->
-  </div>
+  <div class="wrapper"></div>
 </template>
 
 <script>

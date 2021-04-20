@@ -105,39 +105,3 @@ module.exports = {
     model: Teddy,
     routes: router,
 }
-
-
-// app.get('/api/users/:userID/teddys', async(req, res) => {
-//     try {
-//         let user = await User.findOne({ _id: req.params.userID });
-//         if (!user) {
-//             res.send(404);
-//             return;
-//         }
-//         let teddys = await Teddy.find({ user: user });
-//         res.send(teddys);
-//     } catch (error) {
-//         console.log(error);
-//         res.sendStatus(500);
-//     }
-// });
-
-// app.put('/api/users/:userID/teddys/:teddyID', async(req, res) => {
-//     try {
-//         let teddy = await Teddy.findOne({ _id: req.params.teddyID, user: req.params.userID });
-//         if (!teddy) {
-//             res.send(404);
-//             return;
-//         }
-//         teddy.name = req.body.name
-//         teddy.age = req.body.age
-//             // teddy.image = req.body.image
-//             // teddy.gender = req.body.gender
-
-//         await teddy.save();
-//         res.send(teddy);
-//     } catch (error) {
-//         console.log(error);
-//         res.sendStatus(500);
-//     }
-// });

@@ -27,39 +27,11 @@
           <p v-if="error" class="error">{{error}}</p>
         </div>
       </div>
-      <!-- <div id="projects">
-        <button v-for="user in users" :key="user.id" @click="selectUser(user)">{{user.name}}</button>
-      </div>-->
-      <!-- <form @submit.prevent="addUser">
-        <label>First Name</label>
-        <input v-model="firstName" type="text" />
-        <p></p>
-        <label>Last Name</label>
-        <input v-model="lastName" type="text" />
-        <p></p>
-        <label>Username</label>
-        <input v-model="userName" type="text" />
-        <p></p>
-        <label>Password</label>
-        <input v-model="password" type="password" />
-        <p></p>
-        <button type="submit" key="name">Create New User</button>
-      </form>
-      <p></p>-->
+
       <h2>
         Already have an account?
         <a href="/Teddy">Login!</a>
       </h2>
-
-      <!-- <label>Username</label>
-      <input v-model="userName" type="text" />
-      <p></p>
-      <label>Password</label>
-      <input v-model="password" type="password" />
-      <p></p>
-      <button @click="deleteUser(user)" type="submit">Login</button>
-      <p></p>
-      <button @click="deleteUser(user)" type="submit">Delete User</button>-->
     </div>
   </div>
 </template>
